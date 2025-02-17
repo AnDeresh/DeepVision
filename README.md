@@ -21,7 +21,7 @@ All models share a common interface and are accessible through a unifying `Mnist
 ---
 
 ## Project Structure
-
+```
 DeepVision/
 ├── src/
 │   ├── __init__.py
@@ -34,6 +34,7 @@ DeepVision/
 │   └── DeepVision_MNIST_Classification.ipynb  # Demonstration Notebook
 ├── README.md                          # This file
 └── requirements.txt                   # Python dependencies
+```
 
 ### Main Components
 
