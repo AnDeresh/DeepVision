@@ -25,15 +25,15 @@ All models share a common interface and are accessible through a unifying `Mnist
 DeepVision/
 ├── src/
 │   ├── __init__.py
-│   ├── mnist_classifier_interface.py  # Abstract interface with train, predict, etc.
-│   ├── random_forest_classifier.py    # RandomForestMnistClassifier
-│   ├── ffnn_classifier.py             # FfnnMnistClassifier
-│   ├── cnn_classifier.py              # CnnMnistClassifier
-│   └── mnist_classifier.py            # MnistClassifier wrapper to choose among rf, nn, cnn
-├── demo_notebook/
-│   └── DeepVision_MNIST_Classification.ipynb  # Demonstration Notebook
-├── README.md                          # This file
-└── requirements.txt                   # Python dependencies
+│   ├── mnist_classifier_interface.py             # Abstract interface with train, predict, etc.
+│   ├── random_forest_classifier.py               # RandomForestMnistClassifier
+│   ├── ffnn_classifier.py                        # FfnnMnistClassifier
+│   ├── cnn_classifier.py                         # CnnMnistClassifier
+│   └── mnist_classifier.py                       # MnistClassifier wrapper to choose among rf, nn, cnn
+├── demo_notebook/ 
+│   └── DeepVision_MNIST_Classification.ipynb     # Demonstration Notebook
+├── README.md                                     # This file
+└── requirements.txt                              # Python dependencies
 ```
 
 ### Main Components
