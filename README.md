@@ -64,7 +64,7 @@ The essential libraries are listed in `requirements.txt`. A minimal set typicall
 
 1. **Clone the repository**:
 ```bash
-   git clone https://github.com/<your_username>/DeepVision.git
+   git clone https://github.com/AnDeresh/DeepVision.git
    cd DeepVision
 ```
 
